@@ -22,8 +22,9 @@ function App() {
       </input>
 
       <div className="comps">
+      <B message={value} posts = {posts}/>
         <A message={value} posts = {posts}/>
-        <B message={value} posts = {posts}/>
+        //<B message={value} posts = {posts}/>
       </div>
     </div>
   );
